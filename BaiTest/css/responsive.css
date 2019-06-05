@@ -1,0 +1,40 @@
+/* CSS Document */
+@media only screen and (max-width: 768px) {
+	.link{
+		grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));	
+	}
+	.link-item:nth-child(4){
+		grid-row-start: 2;
+		grid-column-start: 1;	
+	}
+	.works__body{
+		grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));	
+	}
+	.works-item:nth-child(n+6){
+		display:none;	
+	}
+	.works-item:last-child{
+		display:block;	
+	}
+	.menu{
+		display:none;	
+	}
+	.menu-responsive{
+		display:block;	
+	}
+	.banner{
+		background-image:url(../images/banner_02.jpg);	
+	}
+	.banner-down{
+		display:block;
+	}
+	.go-top{
+		display:block;	
+	}
+	.link-item:nth-child(2) img{
+		content: url(../images/mobile_09.gif);	
+	}
+	.bg-item{
+		display:none;	
+	}
+}
